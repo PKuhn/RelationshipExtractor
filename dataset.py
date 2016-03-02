@@ -1,9 +1,9 @@
-class Dataset():
+class Dataset:
     def __init__(self, relations):
         self.relations = relations
 
 
-class Relation():
+class Relation:
     def __init__(self, sent, first_pos, second_pos, label):
         self.sent = sent
         self.first_pos = first_pos

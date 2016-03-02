@@ -1,7 +1,7 @@
 from dataset import Relation, Dataset
 
 
-class SemEvalParser():
+class SemEvalParser:
     def retrieve_from_sem_eval(self, path):
         with open(path) as infile:
             instring = infile.read()
